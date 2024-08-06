@@ -11,9 +11,9 @@ def main():
 def flip_coin():
     result = randint(0, 1)
     if result:
-        return 'It landed heads.'
+        return 'It landed heads.\n'
     else:
-        return 'It landed tails.'
+        return 'It landed tails.\n'
 
 
 if __name__ == '__main__':
